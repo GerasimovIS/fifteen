@@ -130,7 +130,7 @@ export default {
         lastItem
       ]
 
-      return [...arr, lastItem]
+      return [...shuffle(arr), lastItem]
     }
   }
 }
